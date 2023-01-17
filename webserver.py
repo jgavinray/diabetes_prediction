@@ -32,8 +32,8 @@ if __name__ == '__main__':
         port = int(sys.argv[1])
     except:
         port = 12345
-lr = joblib.load('randomfs.pkl')
+lr = joblib.load('models/randomfs.pkl')
 print('Model loaded')
-rnd_columns = joblib.load('rnd_columns.pkl')  # Load “rnd_columns.pkl”
+rnd_columns = joblib.load('models/rnd_columns.pkl')  # Load “rnd_columns.pkl”
 print('Model columns loaded')
 application.run(port=port, debug=True)

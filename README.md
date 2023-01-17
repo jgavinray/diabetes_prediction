@@ -10,3 +10,6 @@ Python 3.10
 
 ### Serve Model
 `python webserver.py`
+
+### Dataset
+[Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) is in data/diabetes.csv
